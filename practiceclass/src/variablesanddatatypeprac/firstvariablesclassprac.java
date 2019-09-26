@@ -16,7 +16,7 @@ public class firstvariablesclassprac {
 		long z=6796896;
 		
 		float f=67.8f;
-	System.out.println(z);
+	System.out.println(a);
 
 	}
 
