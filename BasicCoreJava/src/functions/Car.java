@@ -6,7 +6,7 @@ public class Car {
 	String type="Sedan";
 	public void acceleration()
 	{
-		System.out.println(wheels+"wheeler"+colour+"colour"+type+" is accelerating");
+		System.out.println(wheels+"wheeler"+colour+"colour"+type+"is accelerating");
 	}
 
 }
