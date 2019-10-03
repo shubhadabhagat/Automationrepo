@@ -7,7 +7,11 @@ public class Shubhada {
 		phone.calling();
 		phone.texting();
 		phone.internet();
+Telephone phone2=new Telephone();
+phone2.calling();
 
+Telephone phone3=new Smartphone();
+phone3.calling();
 	}
 
 }
