@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="42156" started-at="2019-10-14T21:16:01 IST" finished-at="2019-10-14T21:16:44 IST">
+  <suite name="Default suite" duration-ms="10669" started-at="2019-10-15T21:49:57 IST" finished-at="2019-10-15T21:50:08 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="42156" started-at="2019-10-14T21:16:01 IST" finished-at="2019-10-14T21:16:44 IST">
-      <class name="basicSelenium.SeleniumClass1">
-        <test-method status="PASS" signature="login()[pri:0, instance:basicSelenium.SeleniumClass1@18eed359]" name="login" duration-ms="42043" started-at="2019-10-14T21:16:01 IST" finished-at="2019-10-14T21:16:44 IST">
+    <test name="Default test" duration-ms="10669" started-at="2019-10-15T21:49:57 IST" finished-at="2019-10-15T21:50:08 IST">
+      <class name="basicSelenium.SeleniumClass4">
+        <test-method status="PASS" signature="test()[pri:0, instance:basicSelenium.SeleniumClass4@18eed359]" name="test" duration-ms="10541" started-at="2019-10-15T21:49:58 IST" finished-at="2019-10-15T21:50:08 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-      </class> <!-- basicSelenium.SeleniumClass1 -->
+        </test-method> <!-- test -->
+      </class> <!-- basicSelenium.SeleniumClass4 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
