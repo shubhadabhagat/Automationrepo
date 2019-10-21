@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="advancedSelenium.MouseHover">
+      <class name="basicSelenium.RegisterAssignment">
         <methods>
-          <include name="test"/>
+          <include name="register"/>
         </methods>
-      </class> <!-- advancedSelenium.MouseHover -->
+      </class> <!-- basicSelenium.RegisterAssignment -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

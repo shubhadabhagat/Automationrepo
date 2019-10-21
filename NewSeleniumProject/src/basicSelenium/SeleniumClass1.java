@@ -25,7 +25,7 @@ public class SeleniumClass1 {
 	
 	//Thread.sleep(2000);
 	//username.clear();
-	//Thread.sleep(2000);
+	//Thread.sleep(2000);`
 	
 	//Textbox
 	dr.findElement(By.name("password")).sendKeys("mercury");
