@@ -8,7 +8,8 @@ import org.testng.annotations.Test;
 
 public class Pass1roundtripAssignment {
 	@Test
-	public void Pass1roundtripAssignment() throws InterruptedException {
+	public void roundtripAssignment() throws InterruptedException
+	{
 		System.setProperty("webdriver.chrome.driver", "C:\\techbodhi\\Drivers\\chromedriver.exe");
 		ChromeDriver dr = new ChromeDriver();
 		dr.get("http://newtours.demoaut.com/");

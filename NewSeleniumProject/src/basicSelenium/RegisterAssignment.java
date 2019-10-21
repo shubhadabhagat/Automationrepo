@@ -5,7 +5,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
-
 public class RegisterAssignment {
 	@Test
 public void register() throws InterruptedException {
@@ -61,8 +60,5 @@ public void register() throws InterruptedException {
     System.out.println(By.xpath("//input[@name='register']"));
     dr.findElement(By.name("register")).click();
     
-	
-	
-	
 	}
 }

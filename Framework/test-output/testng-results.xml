@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="48544" started-at="2019-10-21T21:56:45 IST" finished-at="2019-10-21T21:57:33 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="48544" started-at="2019-10-21T21:56:45 IST" finished-at="2019-10-21T21:57:33 IST">
+      <class name="testScripts.TC_FlightBooking_Login">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:testScripts.TC_FlightBooking_Login@731a74c]" name="initialize" is-config="true" duration-ms="7204" started-at="2019-10-21T21:56:45 IST" finished-at="2019-10-21T21:56:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:testScripts.TC_FlightBooking_Login@731a74c]" name="loginTest" duration-ms="9966" started-at="2019-10-21T21:56:52 IST" finished-at="2019-10-21T21:57:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="logoutTest()[pri:0, instance:testScripts.TC_FlightBooking_Login@731a74c]" name="logoutTest" duration-ms="1729" started-at="2019-10-21T21:57:02 IST" finished-at="2019-10-21T21:57:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testScripts.TC_FlightBooking_Login@731a74c]" name="tearDown" is-config="true" duration-ms="1361" started-at="2019-10-21T21:57:04 IST" finished-at="2019-10-21T21:57:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testScripts.TC_FlightBooking_Login -->
+      <class name="testScripts.TC_FlightBooking_LoginWithMultipleDataSets">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:testScripts.TC_FlightBooking_LoginWithMultipleDataSets@369f73a2]" name="initialize" is-config="true" duration-ms="4855" started-at="2019-10-21T21:57:05 IST" finished-at="2019-10-21T21:57:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:testScripts.TC_FlightBooking_LoginWithMultipleDataSets@369f73a2]" name="loginTest" duration-ms="11917" started-at="2019-10-21T21:57:10 IST" data-provider="getData" finished-at="2019-10-21T21:57:22 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mercury]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mercury]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:testScripts.TC_FlightBooking_LoginWithMultipleDataSets@369f73a2]" name="loginTest" duration-ms="9737" started-at="2019-10-21T21:57:22 IST" data-provider="getData" finished-at="2019-10-21T21:57:32 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mercury1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mercury1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testScripts.TC_FlightBooking_LoginWithMultipleDataSets@369f73a2]" name="tearDown" is-config="true" duration-ms="1587" started-at="2019-10-21T21:57:32 IST" finished-at="2019-10-21T21:57:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testScripts.TC_FlightBooking_LoginWithMultipleDataSets -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
