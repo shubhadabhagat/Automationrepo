@@ -21,7 +21,7 @@ public class Pass1roundtripAssignment {
 		System.out.println(dr.findElement(By.xpath("//input[@value='roundtrip']")).isSelected());
 		dr.findElement(By.xpath("//input[@value='roundtrip']")).click();
 		// passenger
-		WebElement pass = dr.findElement(By.name("passCount"));
+		WebElement pass = dr.findElement(By.xpath("//select[@name='passCount']"));
 		Select sel = new Select(pass);
 		sel.selectByIndex(2);
 		Thread.sleep(2000);
