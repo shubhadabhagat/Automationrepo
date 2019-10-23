@@ -1,5 +1,4 @@
 package SamplePackage;
-
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
@@ -18,5 +17,6 @@ public void test1() {
 		
 		//To maximize the window of output 
 		dr.manage().window().maximize();
+		
 	}
 }
