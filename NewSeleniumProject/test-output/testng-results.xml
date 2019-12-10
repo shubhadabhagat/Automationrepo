@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="63960" started-at="2019-10-22T19:27:53 IST" finished-at="2019-10-22T19:28:57 IST">
+  <suite name="Default suite" duration-ms="47865" started-at="2019-12-06T15:43:02 IST" finished-at="2019-12-06T15:43:50 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="63960" started-at="2019-10-22T19:27:53 IST" finished-at="2019-10-22T19:28:57 IST">
-      <class name="basicSelenium.Pass1roundtripAssignment">
-        <test-method status="PASS" signature="roundtripAssignment()[pri:0, instance:basicSelenium.Pass1roundtripAssignment@18eed359]" name="roundtripAssignment" duration-ms="63760" started-at="2019-10-22T19:27:53 IST" finished-at="2019-10-22T19:28:57 IST">
+    <test name="Default test" duration-ms="47865" started-at="2019-12-06T15:43:02 IST" finished-at="2019-12-06T15:43:50 IST">
+      <class name="basicSelenium.Loginassignment">
+        <test-method status="PASS" signature="login()[pri:0, instance:basicSelenium.Loginassignment@2b9627bc]" name="login" duration-ms="47709" started-at="2019-12-06T15:43:02 IST" finished-at="2019-12-06T15:43:50 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- roundtripAssignment -->
-      </class> <!-- basicSelenium.Pass1roundtripAssignment -->
+        </test-method> <!-- login -->
+      </class> <!-- basicSelenium.Loginassignment -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
